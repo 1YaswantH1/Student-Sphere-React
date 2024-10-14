@@ -35,7 +35,7 @@ const NavBar = () => {
           <Link to="/polls">Polls</Link>
         </li>
         <li>
-          <Link to="/signin">Sign In / Sign Up</Link>
+          <Link to="/login">Sign In/Sign Up</Link>
         </li>
       </ul>
       <div
