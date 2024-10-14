@@ -25,7 +25,7 @@ const Login = () => {
   return (
     <div className="auth-body">
       {isSignup ? (
-        <div className="form-container" id="signupForm">
+        <div className="form-container signupForm">
           <h2 className="form-title">Signup</h2>
           <form onSubmit={handleSignupSubmit}>
             <label htmlFor="email">Email</label>
@@ -74,7 +74,7 @@ const Login = () => {
           </div>
         </div>
       ) : (
-        <div className="form-container" id="loginForm">
+        <div className="form-container loginForm">
           <h2 className="form-title">Login</h2>
           <form onSubmit={handleLoginSubmit}>
             <label htmlFor="login-email">Email</label>
