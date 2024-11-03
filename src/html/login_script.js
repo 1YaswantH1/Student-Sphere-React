@@ -76,7 +76,7 @@ createacctbtn.addEventListener("click", function () {
           })
           .then((res) => {
             window.alert("Data added to database.");
-            location.replace("http://localhost:5173/");
+            location.replace("./start.html");
           })
           .catch((error) => console.log(error));
       })
