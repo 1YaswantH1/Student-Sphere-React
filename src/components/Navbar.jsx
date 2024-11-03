@@ -36,7 +36,7 @@ const NavBar = () => {
           <Link to="/polls">Polls</Link>
         </li>
         <li>
-          <Link to="/login">Sign In/Sign Up</Link>
+          <a href="http://127.0.0.1:5500/react-student-sphere/src/html/login_signup.html">Logout</a>
         </li>
       </ul>
       <div

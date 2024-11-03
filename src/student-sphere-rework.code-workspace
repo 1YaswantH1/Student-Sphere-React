@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../demo-react/login-page"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "login-page"
+	}
+}

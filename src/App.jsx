@@ -14,7 +14,7 @@ import Polls from './webpages/Polls';
 // import ComplaintBoxPage from './webpages/ComplaintBoxPage';
 // import IdeasPage from './webpages/IdeasPage';
 
-import Login from './webpages/Login';
+// import Login from './webpages/Login';
 
 // import SignInSignUpPage from './webpages/SignInSignUpPage';
 
@@ -29,7 +29,7 @@ const App = () => {
         {/* <Route path="/ideas" element={<IdeasPage />} /> */}
         <Route path="/polls" element={<Polls/>} />
 
-        <Route path='/login' element={<Login/>}/>
+        {/* <Route path='/login' element={<Login/>}/> */}
         
         {/* <Route path="/login" element={<SignupLoginForm/>} /> */}
       </Routes>

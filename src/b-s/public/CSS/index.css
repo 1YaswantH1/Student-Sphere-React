@@ -1,5 +1,6 @@
 body{
-    background-color: #adb5bd
+    background: linear-gradient(135deg, #023047, #02647E);
+
 }
 .container {
     display: flex;
@@ -8,19 +9,22 @@ body{
     gap: 20px;
     /* background-color: white; */
 }
-
+h1{
+    color: aliceblue;
+}
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #c0b9b9;
+    border: 1px solid ;
     border-radius: 10px;
     padding: 20px;
     width: 300px;
     box-shadow: 8px 8px 16px rgba(8, 9, 8, 0.1);
-    color: white;
-    background-color: #6c6e71;
+    /* color: white; */
+    background: linear-gradient(145deg, #f0f2f5, #e9ecef);
+    /* background-color: #6c6e71; */
 }
 
 .card h2 {

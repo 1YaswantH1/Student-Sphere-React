@@ -4,7 +4,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #495057;
+    /* background-color: #495057; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #023047, #02647E);
+
+    
 }
 .container {
     /* margin-top: 7%; */
@@ -20,7 +24,7 @@ body{
     justify-content: center;
     /* margin: auto; */
     background-color: #adb5bd;
-    color: #343a40;
+    color: black;
     /* align-items: center; */
     /* justify-content: center; */
     border-radius: 5%;
