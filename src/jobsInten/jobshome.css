@@ -1,0 +1,226 @@
+#jobsList{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(145deg, #454f5e, #557390);
+    border-radius: 2rem;
+    width: 90%;
+    /* width: 100vh; */
+}
+#jobsList .job-item{
+    /* width:100vh ; */
+    height: 25rem;
+    background: #023047;
+    color: silver;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 40rem;
+    border-radius: 1.5rem;
+}
+
+.job-item {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.job-item .desc{
+    width: 85%;
+    overflow-y: auto;
+    max-height: 8rem;
+}
+#jobsList .job-item button{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(237, 75, 75);
+    color: whitesmoke;
+    width: 15rem;
+    height: 3rem;
+    border-radius:2rem;
+
+    border: none;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    /* width:100%; */
+    font-size: large;
+    font-weight: bold;
+}
+#jobsList .job-item a{
+    text-decoration: none;
+    background: rgb(55, 90, 3);
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+    color: #e9ecef;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+h2,h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    width: 10rem;
+    height: 4.0rem;
+    border-radius:1rem;
+    background: linear-gradient(145deg, #074097, #e9ecef);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    width:50%;
+    font-size: large;
+    font-weight: bold;
+}
+ button:hover{
+   
+    transform: scale(1.05);
+    background: linear-gradient(135deg,  #e9ecef,#074097); 
+    color: #e9ecef;
+ }
+ a:hover{
+    transform:scale(1.05);
+    
+}
+body{
+    background: #023047;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #023047;
+    padding: .4rem;
+    margin-left: .3rem;
+    box-sizing: border-box;
+    list-style: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size:1.25rem;
+    margin-left: 1rem;
+}
+.nav-links a:hover{
+    opacity: 0.5;
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #023047;
+}
+
+.logo {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 10; }
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: aliceblue;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        /* position: absolute;
+        right: 0;
+        height: 100vh;
+        top: 0;
+        background-color: #023047;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%); */
+        position: fixed; /* Change from absolute to fixed */
+        right: 0;
+        height: 100vh;
+        top: 0;
+        background-color: #023047;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        z-index: 1000; 
+        opacity: 1; 
+    }
+
+    .nav-links.nav-active {
+        transform: translateX(0);
+    }
+
+    .nav-links li {
+        opacity: 1;
+        margin-bottom: 2rem;
+    }
+
+    .hamburger {
+        display: flex;
+        z-index: 1001; 
+        position: fixed;
+        top: 1rem; 
+        right: 1rem; 
+        background-color: #023047;
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+
+    .hamburger.active div:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active div:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .logo {
+        width: 4rem;
+        height: 4rem;
+    }
+}

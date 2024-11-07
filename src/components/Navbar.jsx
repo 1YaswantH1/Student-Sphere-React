@@ -24,13 +24,13 @@ const NavBar = () => {
           {/* <Link to="/sports">Sports</Link> */}
         </li>
         <li>
-          <Link to="/events">Events</Link>
+          <Link to="http://127.0.0.1:5500/react-student-sphere/src/events/eventshome.html">Events</Link>
         </li>
         {/* <li>
           <Link to="/complaint-box">Complaint Box</Link>
         </li> */}
         <li>
-          <Link to="/ideas">Ideas</Link>
+          <Link to="http://127.0.0.1:5500/react-student-sphere/src/jobsInten/jobshome.html">Jobs</Link>
         </li>
         <li>
           <Link to="/polls">Polls</Link>
