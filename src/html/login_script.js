@@ -124,3 +124,9 @@ forgetBtn.addEventListener("click", function () {
       window.alert(error);
     });
 });
+history.pushState(null, null, window.location.href);
+
+    // When the user attempts to go back, push the same state again to stay on the page
+    window.onpopstate = function () {
+        history.pushState(null, null, window.location.href);
+    };

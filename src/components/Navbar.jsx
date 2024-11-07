@@ -32,9 +32,9 @@ const NavBar = () => {
         <li>
           <Link to="http://127.0.0.1:5500/react-student-sphere/src/jobsInten/jobshome.html">Jobs</Link>
         </li>
-        <li>
-          <Link to="/polls">Polls</Link>
-        </li>
+        {/* <li> */}
+          {/* <Link to="/polls">Polls</Link> */}
+        {/* </li> */}
         <li>
           <a href="http://127.0.0.1:5500/react-student-sphere/src/html/login_signup.html">Logout</a>
         </li>
